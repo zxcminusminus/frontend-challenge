@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2196F3;
+  width: 100%;
+  position: fixed;
+  z-index: 228;
+}
+
+body {
+  color: #444;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-flex;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+ul li a:hover {
+  color: red;
+}
+
+.nav .active a {
+  background-color: #1E88E5;
+}
+
+.tab-pane {
+  padding-top: 40px;
+  display: none;
+}
+
+.tab-pane.active {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat {
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+.cat_pic {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.like_pic {
+  position: absolute;
+  right: 15%;
+  bottom: 15%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=css.css.map */
