@@ -55,8 +55,8 @@ function showCats(arrayCats){
     })
 }
 function upload(){
-    let penis = getCats();
-    penis.then(r=>showCats(r));
+    let data = getCats();
+    data.then(r=>showCats(r));
 }
 
 function tabSwitcher(event) {
